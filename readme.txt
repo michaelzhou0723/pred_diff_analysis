@@ -8,8 +8,6 @@ To run ILSVRC experiments:
 
    Command for cropping images:
    mogrify *.JPEG -resize "227x227^" -gravity center -crop 227x227+0+0 +repage
-
-   To delete images with incorrect number of channels, I simply wrote a Python script and used Pillow library
    
 
 2. Download the caffe model file for Alexnet, VGG16 or GoogLenet into the corresponding subdirectory under 
